@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Red Teaming on mattreduce</title>
-    <link>https://mattreduce.github.io/categories/red-teaming/</link>
+    <link>https://mattreduce.com/categories/red-teaming/</link>
     <description>Recent content in Red Teaming on mattreduce</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 27 Jan 2021 20:36:27 -0800</lastBuildDate><atom:link href="https://mattreduce.github.io/categories/red-teaming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Jan 2021 20:36:27 -0800</lastBuildDate><atom:link href="https://mattreduce.com/categories/red-teaming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
-      <link>https://mattreduce.github.io/posts/hello-world/</link>
+      <link>https://mattreduce.com/posts/hello-world/</link>
       <pubDate>Wed, 27 Jan 2021 20:36:27 -0800</pubDate>
       
-      <guid>https://mattreduce.github.io/posts/hello-world/</guid>
+      <guid>https://mattreduce.com/posts/hello-world/</guid>
       <description>Cras ex dui, tristique a libero eget, consectetur semper ligula. Nunc augue arcu, malesuada a nisi et, molestie finibus metus. Sed lacus odio, ultricies a nisl vitae, sollicitudin tempor ipsum. Vivamus quis feugiat arcu.</description>
     </item>
     
