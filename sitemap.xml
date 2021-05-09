@@ -1,48 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://mattreduce.com/categories/</loc>
     <lastmod>2021-01-27T20:36:27-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mattreduce.com/tags/hello/</loc>
     <lastmod>2021-01-27T20:36:27-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mattreduce.com/posts/hello-world/</loc>
     <lastmod>2021-01-27T20:36:27-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mattreduce.com/</loc>
     <lastmod>2021-01-27T20:36:27-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mattreduce.com/posts/</loc>
     <lastmod>2021-01-27T20:36:27-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mattreduce.com/categories/red-teaming/</loc>
     <lastmod>2021-01-27T20:36:27-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mattreduce.com/tags/</loc>
     <lastmod>2021-01-27T20:36:27-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mattreduce.com/authors/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mattreduce.com/series/</loc>
   </url>
-  
 </urlset>
