@@ -4,6 +4,8 @@
 
 
 <title>mattreduce</title>
+
+<meta name="generator" content="Hugo Eureka 0.8.2" />
 <link rel="stylesheet" href="https://mattreduce.com/css/eureka.min.css">
 <script defer src="https://mattreduce.com/js/eureka.min.js"></script>
 
@@ -11,13 +13,17 @@
 <link rel="preload"
   href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"
   as="style" onload="this.onload=null;this.rel='stylesheet'">
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/styles/solarized-light.min.css"
    media="print"
   onload="this.media='all';this.onload=null" crossorigin>
 <script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/highlight.min.js"
    crossorigin></script>
+
 <script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/js/all.min.js"
    integrity="sha256-uNYoXefWRqv&#43;PsIF/OflNmwtKM4lStn9yrz2gVl6ymo="  crossorigin></script>
+
+
 
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
@@ -39,6 +45,8 @@
     });
   });
 </script>
+
+
 
 
 <link rel="icon" type="image/png" sizes="32x32" href="https://mattreduce.com/images/avatar_huf38824a2a3c7ac9c9c548be91b944c39_67385_32x32_fill_q75_box_center.jpg">
@@ -119,9 +127,9 @@
                 </div>
                 <div class="absolute flex flex-col left-0 md:left-auto right-auto md:right-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
                     id='lightDarkOptions'>
-                    <span class="px-4 py-1 hover:text-eureka">Light</span>
-                    <span class="px-4 py-1 hover:text-eureka">Dark</span>
-                    <span class="px-4 py-1 hover:text-eureka">Auto</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Light">Light</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Dark">Dark</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Auto">Auto</span>
                 </div>
             </div>
         </div>
@@ -132,10 +140,11 @@
 
 </nav>
 <script>
+    
     let element = document.getElementById('lightDarkMode')
     if (storageColorScheme == null || storageColorScheme == 'Auto') {
         document.addEventListener('DOMContentLoaded', () => {
-            switchMode('Auto')
+            window.matchMedia("(prefers-color-scheme: dark)").addEventListener('change', switchDarkMode)
         })
     } else if (storageColorScheme == "Light") {
         element.firstElementChild.classList.remove('fa-adjust')
@@ -146,12 +155,13 @@
         element.firstElementChild.setAttribute("data-icon", 'moon')
         element.firstElementChild.classList.add('fa-moon')
     }
-    
+
     document.addEventListener('DOMContentLoaded', () => {
         getcolorscheme();
         switchBurger();
     });
-</script></div>
+</script>
+</div>
   </header>
   <main class="flex-grow pt-16">
   
@@ -187,8 +197,8 @@
     
     
     
-    
-    
+      
+      
     
 
     
@@ -276,6 +286,7 @@ Visual Studio Code editor. It installs (as an initial payload or as persistence 
 <a href="https://github.com/cedowens/SwiftBelt">SwiftBelt</a>.</p>
 
 </div>
+
   
 
       </div>
@@ -301,8 +312,8 @@ Visual Studio Code editor. It installs (as an initial payload or as persistence 
     
     
     
-    
-    
+      
+      
     
   
 
@@ -314,8 +325,8 @@ Visual Studio Code editor. It installs (as an initial payload or as persistence 
     
     
     
-    
-    
+      
+      
     
 
     
