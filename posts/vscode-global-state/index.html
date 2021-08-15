@@ -76,7 +76,7 @@
     "image": "https://mattreduce.com/images/posts/vscode-global-state.png",
     "datePublished": "2021-08-15T00:55:00-07:00",
     "dateModified": "2021-08-15T12:25:00-07:00",
-    "wordCount":  368 ,
+    "wordCount":  369 ,
     "publisher": {
         "@type": "Person",
         "name": "Matthew Conway",
@@ -254,7 +254,7 @@ CREATE TABLE ItemTable (key TEXT UNIQUE ON CONFLICT REPLACE, value BLOB);
 <pre><code>sqlite&gt; SELECT * FROM ItemTable WHERE key = 'corp.venus';
 corp.venus|{&quot;productID&quot;:&quot;c5b3ee3a-0ddb-4406-9a7e-f450d0e4563d&quot;}
 </code></pre>
-<p>Once this is stored in VS Code&rsquo;s global state, Venus extension won&rsquo;t try to check in again. You can clear out this value and force the payload to check in by deleting the <code>corp.venus</code> record. The exact key will vary based on your extension&rsquo;s publisher and name/identifier that you chose when building the payload in Mythic.</p>
+<p>Once this is stored in VS Code&rsquo;s global state, the Venus extension won&rsquo;t try to check in again. You can clear out this value and force the payload to check in by deleting the <code>corp.venus</code> record. The exact key will vary based on your extension&rsquo;s publisher and name/identifier that you chose when building the payload in Mythic.</p>
 <pre><code>sqlite&gt; DELETE FROM ItemTable WHERE key = 'corp.venus';
 </code></pre>
 <p>This will force your Venus payload to check in again the next time it starts, which can be handy for development/testing.</p>
