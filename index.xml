@@ -6,14 +6,14 @@
     <description>Recent content on mattreduce</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 27 Jan 2021 20:36:27 -0800</lastBuildDate><atom:link href="https://mattreduce.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Aug 2021 00:55:00 -0700</lastBuildDate><atom:link href="https://mattreduce.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello World</title>
-      <link>https://mattreduce.com/posts/hello-world/</link>
-      <pubDate>Wed, 27 Jan 2021 20:36:27 -0800</pubDate>
+      <title>Exploring VS Code&#39;s Global State</title>
+      <link>https://mattreduce.com/posts/vscode-global-state/</link>
+      <pubDate>Sun, 15 Aug 2021 00:55:00 -0700</pubDate>
       
-      <guid>https://mattreduce.com/posts/hello-world/</guid>
-      <description>Cras ex dui, tristique a libero eget, consectetur semper ligula. Nunc augue arcu, malesuada a nisi et, molestie finibus metus. Sed lacus odio, ultricies a nisl vitae, sollicitudin tempor ipsum. Vivamus quis feugiat arcu.</description>
+      <guid>https://mattreduce.com/posts/vscode-global-state/</guid>
+      <description>While working on the Venus payload for Mythic C2, which is a cross-platform implant that installs as a Visual Studio Code extension, I needed a way to record that the malware checked in with the C2 server.</description>
     </item>
     
   </channel>
