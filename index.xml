@@ -8,6 +8,15 @@
     <language>en</language>
     <lastBuildDate>Sun, 15 Aug 2021 00:55:00 -0700</lastBuildDate><atom:link href="https://mattreduce.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Projects</title>
+      <link>https://mattreduce.com/projects/</link>
+      <pubDate>Sun, 03 Oct 2021 13:04:54 -0700</pubDate>
+      
+      <guid>https://mattreduce.com/projects/</guid>
+      <description>One of the areas I focus on as a red teamer is the building and optimization of capabilities through development and infrastructure automation (or really anything under Tactic TA0042 for fellow MITRE ATT&amp;amp;CK©️ wonks).</description>
+    </item>
+    
+    <item>
       <title>Exploring VS Code&#39;s Global State</title>
       <link>https://mattreduce.com/posts/vscode-global-state/</link>
       <pubDate>Sun, 15 Aug 2021 00:55:00 -0700</pubDate>
