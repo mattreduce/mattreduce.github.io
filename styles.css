@@ -18,9 +18,9 @@ a { color: inherit; }
   display: flex; align-items: center; justify-content: space-between;
   padding: 18px 48px;
   border-bottom: 1px solid rgba(46,52,64,.08);
-  background: rgba(245,242,236,.70);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
+  background: rgba(245,242,236,.96);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
 }
 .mc-brand {
   font-family: var(--font-serif); font-style: italic; font-weight: 400;
@@ -42,7 +42,7 @@ a { color: inherit; }
 }
 
 /* ---------- LAYOUT ---------- */
-.mc-page { max-width: 1080px; margin: 0 auto; padding: 72px 48px 80px; }
+.mc-page { max-width: 1080px; margin: 0 auto; padding: 48px 48px 56px; }
 .mc-eyebrow {
   font-family: var(--font-sans); font-weight: 500; font-size: 12px;
   letter-spacing: 0.14em; text-transform: uppercase; color: var(--fg-3);
@@ -59,7 +59,7 @@ a { color: inherit; }
   gap: 72px;
   align-items: stretch;
   padding: 24px 0 0;
-  min-height: calc(100vh - 56px - 80px - 80px);
+  min-height: calc(100vh - 56px - 48px - 56px);
 }
 .mc-card-text {
   display: flex; flex-direction: column; justify-content: center;
@@ -354,8 +354,8 @@ a { color: inherit; }
   .mc-nav { padding: 14px 24px; }
   .mc-nav-meta { display: none; }
   .mc-card-name, .mc-card-role, .mc-card-rule { display: none; }
-  .mc-page { padding: 44px 24px 64px; }
-  .mc-card { grid-template-columns: 1fr; gap: 36px; }
+  .mc-page { padding: 24px 24px 44px; }
+  .mc-card { grid-template-columns: 1fr; gap: 20px; }
   .mc-card-portrait { order: -1; max-width: 360px; margin: 0 auto; }
   .mc-card-name { font-size: 56px; }
   .mc-about { grid-template-columns: 1fr; gap: 36px; }
